@@ -1,2 +1,2 @@
 # pausas
-pausas acticas
+pausas activas
