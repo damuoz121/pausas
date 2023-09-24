@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<style>
+    body{
+        background-color: beige;
+    }
+    /* Estilo del div interno */
+    .inner-div {
+        background-color: #f0f0f0;
+        padding: 10px;
+        border-radius: 5px;
+    }
+        /* Estilos del botón */
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3498db; /* Color de fondo */
+            color: #fff; /* Color del texto */
+            font-size: 16px;
+            text-decoration: none; /* Elimina el subrayado de los enlaces */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Estilo cuando el mouse pasa sobre el botón */
+        .button:hover {
+            background-color: #2980b9; /* Cambia el color de fondo al pasar el mouse */
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra minimalista */
+        }
+
+        /* Estilo del botón */
+        .button {
+            background-color: #3498db;
+            color: #fff;
+            padding: 5px 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Estilo del botón al pasar el mouse */
+        .button:hover {
+            background-color: #2980b9;
+        }
+</style>
+<header>
+    <nav>
+        <div>
+            <ul class="flex p-8 bg-gray-800 justify-between">
+                <li class="text-2xl text-white tracking-wide cursor-pointer hover:border-white hover:border-b-2 border-b-2 border-transparent transition duration-300" onclick="window.location.href='/'">Pausas Activas</li>
+                <li class="text-2xl text-white tracking-wide cursor-pointer hover:border-white hover:border-b-2 border-b-2 border-transparent transition duration-300" onclick="window.location.href='/beneficios'">Beneficios</li>
+                <li class="text-2xl text-white tracking-wide cursor-pointer hover:border-white hover:border-b-2 border-b-2 border-transparent transition duration-300" onclick="window.location.href='/ejercicios'">Ejercicios</li>
+                <li class="text-2xl text-white tracking-wide cursor-pointer hover:border-white hover:border-b-2 border-b-2 border-transparent transition duration-300" onclick="window.location.href='/medidasempresariales'">Medidas empresariales</li>
+            </ul>
+        </div>
+    </nav>
+</header>
