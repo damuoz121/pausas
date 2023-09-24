@@ -1,2 +1,2 @@
-# pausas
-pausas activas
+# Pausas Activas
+Guia de pausas activas
