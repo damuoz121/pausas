@@ -21,7 +21,6 @@ app.get("/medidasempresariales", (req, res) => {
     res.render("medidasemp");
   });
 
- 
 // Servidor
 app.listen(port, () => {
   console.log(`Servidor iniciado en el puerto ${port}`);
